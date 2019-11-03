@@ -1,0 +1,183 @@
+/* @font-face {
+	font-family: sourceSansLight;
+	src: local("Source Sans Pro Light");
+}
+
+@font-face {
+	font-family: sourceSans;
+	src: local("Source Sans Pro");
+}
+
+@font-face {
+	font-family: sourceSansBold;
+	src: local("Source Sans Pro Bold");
+} */
+
+html {
+	font-family: 'Source Sans Pro Light', sans-serif;;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+	font-size: 17px;
+	color: #3f3f3f;
+	margin: 0;
+	padding: 0;
+}
+
+body * {
+	/* outline: solid 1px red; */
+
+}
+
+/*---navigation bar---*/
+
+header {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+
+
+nav a {
+	color: rgb(63, 63, 63);
+	text-decoration: none;
+	vertical-align: middle;
+	display: inline-block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#center {
+	display: inline-block;
+	height: 60px;
+	width: 0;
+	margin-right: 0;
+}
+
+a:hover {
+	color: #a5a5a5;
+} 
+#current-site {
+	color: #f29fc5
+}
+
+.el {
+	position: absolute;
+	display: inline-block;
+	font-size: 55px;
+	line-height: 60px;
+	left: 40px;
+	top: 50%;
+	margin-top: -33px;
+}
+
+.icons {
+	position: absolute;
+	vertical-align: middle;
+	right: 40px;
+	top: 50%;
+	margin-top: -8.5px;
+}
+
+/*---content---*/
+
+section {
+	text-align: center;
+}
+
+section div h1 {
+	position: relative;
+	font-size: 50px;
+	font-family:'Source Sans Pro Black', sans-serif;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.picture-me {
+	margin-left: -10px;
+	display: inline-block;
+}
+
+section div p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	display: inline-block;
+  	vertical-align: middle;
+	width: 600px;
+}
+
+.discover {
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Source Sans Pro Black', sans-serif;;
+	outline-style: none;
+	text-decoration: none;
+}
+
+.discover a {
+	text-decoration: none;
+	color: #6BB3BF;
+}
+
+.discover a:hover {
+	color: #919191;
+}
+
+/* ---work--- */
+
+.header1 {
+	font-family: 'Source Sans Pro Black', sans-serif;
+	font-size: 40px;
+	margin-top: 30px;
+	color: #6BB3BF;
+}
+
+header p {
+	width: 600px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 40px;
+}
+
+.header2 {
+	font-family: 'Source Sans Pro Bold', sans-serif;
+	margin-bottom: 30px;
+}
+
+.work1 {
+	text-align: center;
+	width: 100%;
+}
+
+.work1 img {
+	margin: 1%;
+	width: 40%;
+	margin-bottom: 30px;
+}
+
+.work3 img {
+	margin: 10%;
+	text-align: center;
+}
+
+/* ---contact--- */
+
+.info{
+	text-align: center;
+}
+
+
+/*---footer---*/
+
+footer {
+	margin-top: 50px;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	height: 45px;
+	font-size: 16px;
+}
